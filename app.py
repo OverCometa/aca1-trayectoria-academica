@@ -20,6 +20,7 @@ st.caption(f"{AUTHOR} · Trabajo individual · Prototipo académico con datos de
 
 with st.sidebar:
     st.header("Explorar el proyecto")
+    st.markdown("<style>div[data-testid='stMetric'], div[data-testid='stMetric'] * {color: #132c40 !important;}</style>", unsafe_allow_html=True)
     page = st.radio("Sección", ["Simular un caso", "Resultados del modelo", "Datos y metodología", "Referencias"], label_visibility="collapsed")
     st.divider()
     st.markdown("**Momento de uso**\n\nAl cerrar el primer semestre.")
