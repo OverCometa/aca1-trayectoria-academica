@@ -1,0 +1,147 @@
+{
+  "modelo_seleccionado": "Bosque aleatorio",
+  "seed": 42,
+  "cv_folds": 5,
+  "n_train": 3539,
+  "n_test": 885,
+  "audit": {
+    "filas_originales": 4424,
+    "columnas_originales": 37,
+    "predictores_originales": 36,
+    "faltantes_originales": 0,
+    "duplicados_eliminados": 0,
+    "filas_finales": 4424,
+    "variables_modelo": [
+      "Age at enrollment",
+      "Admission grade",
+      "Previous qualification (grade)",
+      "Curricular units 1st sem (credited)",
+      "Curricular units 1st sem (enrolled)",
+      "Curricular units 1st sem (evaluations)",
+      "Curricular units 1st sem (approved)",
+      "Curricular units 1st sem (grade)",
+      "Curricular units 1st sem (without evaluations)"
+    ],
+    "clases": {
+      "Graduate": 2209,
+      "Dropout": 1421,
+      "Enrolled": 794
+    },
+    "controles": {
+      "edad_fuera_rango": 0,
+      "notas_ingreso_fuera_rango": 0,
+      "promedio_fuera_rango": 0,
+      "conteos_negativos": 0,
+      "aprobadas_mayores_inscritas": 0
+    },
+    "sha256_data_csv": "3ef126de5cefff26eb11fbb4237f1a1401cb64b488e2f1d598c23cedeb4c45ae"
+  },
+  "comparacion_cv": [
+    {
+      "modelo": "Bosque aleatorio",
+      "f1_macro_cv": 0.6374919092815227,
+      "desviacion_cv": 0.005502582173658507,
+      "parametros": {
+        "model__max_depth": null,
+        "model__min_samples_leaf": 8
+      },
+      "segundos": 14.6
+    },
+    {
+      "modelo": "Regresión logística",
+      "f1_macro_cv": 0.6165284595290084,
+      "desviacion_cv": 0.011999999881469556,
+      "parametros": {
+        "model__C": 0.1,
+        "model__class_weight": "balanced"
+      },
+      "segundos": 0.61
+    },
+    {
+      "modelo": "Gradient boosting",
+      "f1_macro_cv": 0.6051422425979691,
+      "desviacion_cv": 0.009035136926687018,
+      "parametros": {
+        "model__l2_regularization": 5.0,
+        "model__max_leaf_nodes": 31
+      },
+      "segundos": 10.57
+    }
+  ],
+  "test": {
+    "accuracy": 0.6734463276836158,
+    "balanced_accuracy": 0.6262514852149218,
+    "f1_macro": 0.6225531213397456,
+    "f1_weighted": 0.6839340271946373,
+    "roc_auc_ovr_macro": 0.8221708505429683,
+    "log_loss": 0.742445287147217,
+    "f1_macro_ic95_bootstrap": [
+      0.5874277412232722,
+      0.6524088841489207
+    ],
+    "classification_report": {
+      "Dropout": {
+        "precision": 0.7291666666666666,
+        "recall": 0.6161971830985915,
+        "f1-score": 0.6679389312977099,
+        "support": 284.0
+      },
+      "Enrolled": {
+        "precision": 0.34841628959276016,
+        "recall": 0.48427672955974843,
+        "f1-score": 0.4052631578947368,
+        "support": 159.0
+      },
+      "Graduate": {
+        "precision": 0.8113207547169812,
+        "recall": 0.7782805429864253,
+        "f1-score": 0.7944572748267898,
+        "support": 442.0
+      },
+      "accuracy": 0.6734463276836158,
+      "macro avg": {
+        "precision": 0.6296345703254693,
+        "recall": 0.6262514852149218,
+        "f1-score": 0.6225531213397456,
+        "support": 885.0
+      },
+      "weighted avg": {
+        "precision": 0.7017912960039412,
+        "recall": 0.6734463276836158,
+        "f1-score": 0.6839340271946373,
+        "support": 885.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        175,
+        65,
+        44
+      ],
+      [
+        46,
+        77,
+        36
+      ],
+      [
+        19,
+        79,
+        344
+      ]
+    ]
+  },
+  "baseline_test": {
+    "accuracy": 0.4994350282485876,
+    "f1_macro": 0.22205476011052497
+  },
+  "versiones": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "matplotlib": "3.10.8"
+  },
+  "python": "3.12.14",
+  "alcance": "Clasificación multiclase retrospectiva al cierre del primer semestre. No validado en Colombia.",
+  "probabilidades": "Estimaciones no calibradas. No son certezas ni umbrales clínicos o institucionales."
+}

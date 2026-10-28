@@ -1,0 +1,51 @@
+[
+  {
+    "id": "paper",
+    "citation": "Realinho et al. (2022)",
+    "apa": "Realinho, V., Machado, J., Baptista, L., & Martins, M. V. (2022). Predicting student dropout and academic success. Data, 7(11), Artículo 146. https://doi.org/10.3390/data7110146",
+    "url": "https://doi.org/10.3390/data7110146",
+    "markdown": "Realinho, V., Machado, J., Baptista, L., & Martins, M. V. (2022). Predicting student dropout and academic success. *Data, 7*(11), Artículo 146. https://doi.org/10.3390/data7110146"
+  },
+  {
+    "id": "dataset",
+    "citation": "Realinho et al. (2021)",
+    "apa": "Realinho, V., Vieira Martins, M., Machado, J., & Baptista, L. (2021). Predict students’ dropout and academic success [Conjunto de datos]. UCI Machine Learning Repository. https://doi.org/10.24432/C5MC89",
+    "url": "https://doi.org/10.24432/C5MC89",
+    "markdown": "Realinho, V., Vieira Martins, M., Machado, J., & Baptista, L. (2021). *Predict students’ dropout and academic success* [Conjunto de datos]. UCI Machine Learning Repository. https://doi.org/10.24432/C5MC89"
+  },
+  {
+    "id": "pitfalls",
+    "citation": "scikit-learn developers (s. f.-a)",
+    "apa": "scikit-learn developers. (s. f.-a). Common pitfalls and recommended practices. scikit-learn. https://scikit-learn.org/stable/common_pitfalls.html",
+    "url": "https://scikit-learn.org/stable/common_pitfalls.html",
+    "markdown": "scikit-learn developers. (s. f.-a). *Common pitfalls and recommended practices*. scikit-learn. https://scikit-learn.org/stable/common_pitfalls.html"
+  },
+  {
+    "id": "ensemble",
+    "citation": "scikit-learn developers (s. f.-b)",
+    "apa": "scikit-learn developers. (s. f.-b). Ensembles: Gradient boosting, random forests, bagging, voting, stacking. scikit-learn. https://scikit-learn.org/stable/modules/ensemble.html",
+    "url": "https://scikit-learn.org/stable/modules/ensemble.html",
+    "markdown": "scikit-learn developers. (s. f.-b). *Ensembles: Gradient boosting, random forests, bagging, voting, stacking*. scikit-learn. https://scikit-learn.org/stable/modules/ensemble.html"
+  },
+  {
+    "id": "linear",
+    "citation": "scikit-learn developers (s. f.-c)",
+    "apa": "scikit-learn developers. (s. f.-c). Linear models. scikit-learn. https://scikit-learn.org/stable/modules/linear_model.html",
+    "url": "https://scikit-learn.org/stable/modules/linear_model.html",
+    "markdown": "scikit-learn developers. (s. f.-c). *Linear models*. scikit-learn. https://scikit-learn.org/stable/modules/linear_model.html"
+  },
+  {
+    "id": "metrics",
+    "citation": "scikit-learn developers (s. f.-d)",
+    "apa": "scikit-learn developers. (s. f.-d). Metrics and scoring: Quantifying the quality of predictions. scikit-learn. https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+    "markdown": "scikit-learn developers. (s. f.-d). *Metrics and scoring: Quantifying the quality of predictions*. scikit-learn. https://scikit-learn.org/stable/modules/model_evaluation.html"
+  },
+  {
+    "id": "streamlit",
+    "citation": "Streamlit (s. f.)",
+    "apa": "Streamlit. (s. f.). Prep and deploy your app on Community Cloud. https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app",
+    "url": "https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app",
+    "markdown": "Streamlit. (s. f.). *Prep and deploy your app on Community Cloud*. https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app"
+  }
+]
